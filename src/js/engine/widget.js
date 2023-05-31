@@ -4,8 +4,8 @@ export default class Widget {
   constructor() {
     this.user = undefined;
     // this.webSocket = new WebSocket(`ws://localhost:3000`);
-    // this.server = `https://vp-ahj-chat.herokuapp.com/`;
-    this.webSocket = new WebSocket(`wss://vp-ahj-chat.herokuapp.com/`);
+    // this.server = `https://ahj-ws-frontend.onrender.com`;
+    this.webSocket = new WebSocket(`https://ahj-ws-frontend.onrender.com`);
   }
   async init() {
     this.render();
