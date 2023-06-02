@@ -1,8 +1,8 @@
-import Widget from './engine/widget';
+/* eslint-disable import/extensions */
+import Widget from './Widget';
 
-export default function app() {
-  const widget = new Widget();
-  widget.init();
-}
+const widget = new Widget('https://ahj-ws-backend-6pyi.onrender.com');
 
-app();
+// const widget = new Widget('ws://localhost:8080/ws');
+
+widget.createForm();
