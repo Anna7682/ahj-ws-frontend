@@ -1,4 +1,3 @@
 import './css/style.css';
-import './js/app';
-
-// entry point for webpack
+import './js/app.js';
+// import './img/js.png';
